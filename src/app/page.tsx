@@ -9,6 +9,7 @@ import {
   TrendingUp,
   Zap,
 } from "lucide-react";
+import BrandLogo from "@/components/BrandLogo";
 
 const features = [
   {
@@ -46,6 +47,7 @@ export default function HomePage() {
         </div>
         <div className="relative mx-auto max-w-6xl px-4 py-20 md:py-28">
           <div className="max-w-3xl">
+            <BrandLogo size="lg" light link={false} className="mb-6" />
             <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-action/20 border border-brand-accent/30 px-3 py-1 text-xs font-semibold text-brand-accent">
               <Sparkles className="h-3.5 w-3.5" />
               NexSync · Santa Cruz, Bolivia

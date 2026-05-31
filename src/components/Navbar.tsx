@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
 import {
   Building2,
@@ -17,8 +16,8 @@ import {
 import { useCallback, useEffect, useState } from "react";
 import UserMenu from "@/components/UserMenu";
 import NotificationBell from "@/components/NotificationBell";
+import BrandLogo from "@/components/BrandLogo";
 import type { AuthUser } from "@/lib/auth/types";
-import { BRAND_NAME, BRAND_TAGLINE } from "@/lib/brand";
 
 const homeLink = { href: "/", label: "Inicio", icon: Home };
 
@@ -74,21 +73,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-brand-primary/10 bg-white/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <Link href="/" className="flex items-center gap-3">
-          <Image
-            src="/nexsync-logo.png"
-            alt={BRAND_NAME}
-            width={140}
-            height={36}
-            className="h-9 w-auto object-contain"
-            priority
-          />
-          <div className="hidden sm:block border-l border-slate-200 pl-3">
-            <p className="text-[10px] text-brand-muted font-medium leading-tight max-w-[140px]">
-              {BRAND_TAGLINE}
-            </p>
-          </div>
-        </Link>
+        <BrandLogo size="md" showTagline className="sm:pr-1" />
 
         {!isAuthPage && (
           <nav className="hidden md:flex items-center gap-1">

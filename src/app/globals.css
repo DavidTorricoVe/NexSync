@@ -30,6 +30,10 @@
   --font-mono: var(--font-geist-mono);
 }
 
+.font-brand {
+  font-family: var(--font-brand), var(--font-geist-sans), system-ui, sans-serif;
+}
+
 body {
   background: var(--brand-bg);
   color: var(--brand-text);

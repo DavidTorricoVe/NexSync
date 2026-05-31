@@ -1,5 +1,6 @@
 import { Heart } from "lucide-react";
-import { BRAND_NAME, BRAND_TAGLINE } from "@/lib/brand";
+import BrandLogo from "@/components/BrandLogo";
+import { BRAND_TAGLINE } from "@/lib/brand";
 
 export default function Footer() {
   return (
@@ -7,8 +8,8 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-8">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
-            <p className="font-bold text-brand-text">{BRAND_NAME}</p>
-            <p className="text-sm text-brand-muted mt-1">
+            <BrandLogo size="sm" link={false} />
+            <p className="text-sm text-brand-muted mt-2">
               {BRAND_TAGLINE} — Santa Cruz, Bolivia
             </p>
           </div>

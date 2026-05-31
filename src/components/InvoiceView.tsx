@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import BrandLogo from "@/components/BrandLogo";
 import type { Contract } from "@/lib/contracts-store";
 import { BRAND_NAME, PLATFORM_FEE_LABEL } from "@/lib/brand";
 import {
@@ -64,13 +64,7 @@ export default function InvoiceView({
         <header className="bg-gradient-to-br from-brand-primary via-brand-secondary to-slate-900 px-8 py-8 text-white print:bg-brand-primary">
           <div className="flex flex-wrap items-start justify-between gap-4">
             <div>
-              <Image
-                src="/nexsync-logo.png"
-                alt={BRAND_NAME}
-                width={160}
-                height={40}
-                className="h-10 w-auto brightness-0 invert"
-              />
+              <BrandLogo size="md" light link={false} />
               <p className="mt-4 text-xs font-bold uppercase tracking-[0.2em] text-brand-light">
                 {BRAND_NAME} · Santa Cruz, Bolivia
               </p>
