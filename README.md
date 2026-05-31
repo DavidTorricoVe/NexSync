@@ -6,8 +6,6 @@ NexSync conecta empresas que tienen recursos ociosos (bodegas, maquinaria, trans
 
 **Demo en vivo:** [https://hackaton-bice-gamma.vercel.app](https://hackaton-bice-gamma.vercel.app)
 
-**Repositorio:** [https://github.com/DavidTorricoVe/NexSync](https://github.com/DavidTorricoVe/NexSync)
-
 **Video de la demo:** [https://youtu.be/jcdZpripvUc](https://youtu.be/jcdZpripvUc)
 
 ---
