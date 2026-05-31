@@ -8,6 +8,8 @@ NexSync conecta empresas que tienen recursos ociosos (bodegas, maquinaria, trans
 
 **Repositorio:** [https://github.com/DavidTorricoVe/NexSync](https://github.com/DavidTorricoVe/NexSync)
 
+**Video de la Demo** [https://youtu.be/jcdZpripvUc)
+
 ---
 
 ## Problema
@@ -278,7 +280,7 @@ Proyecto para **Hackathon Build With AI 2026** — **GDG Santa Cruz**.
 
 | Integrante |
 |------------|
-| Diego Andrade |
+| Diego Andrade Canedo |
 | Sebastian Aspiazu |
 | Salim Suarez |
 | Mathias Frias |
