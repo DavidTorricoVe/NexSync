@@ -119,18 +119,25 @@ Matching · Contratos · Notificaciones · Emails · Facturas
 
 ```
 NexSync/
+├── docs/                              # Documentación para jurado
+│   ├── NexSync_Documento_Tecnico.pdf
+│   └── NexSync_Presentacion.pdf
+├── public/                            # Logos e imágenes estáticas
+│   ├── nexsync-logo.png
+│   └── logo.jpg
+├── scripts/                           # Scripts de soporte
+│   └── create-git-history.sh
 ├── src/
-│   ├── app/              # Páginas y API routes
-│   ├── components/       # UI, mapas, contrato, factura
-│   └── lib/              # IA, auth, store, emails, brand
-├── public/
-│   └── nexsync-logo.png
-├── docs/
-│   ├── DOCUMENTO_TECNICO.md
-│   └── PITCH_GUION.md
-├── .env.example          # Plantilla (sin secrets)
+│   ├── app/                           # Páginas, API routes y App Router
+│   ├── components/                    # UI, mapas, contratos, modales
+│   └── lib/                           # IA, auth, store, emails, config
+├── .env.example                       # Plantilla de variables (sin API keys reales)
 ├── .gitignore
-└── README.md
+├── README.md
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+└── tsconfig.json
 ```
 
 ---
@@ -282,8 +289,8 @@ Proyecto para **Hackathon Build With AI 2026** — **GDG Santa Cruz**.
 
 ## Documentación adicional
 
-- [Documento técnico](./docs/DOCUMENTO_TECNICO.md)
-- [Guión pitch 2 min](./docs/PITCH_GUION.md)
+- [Documento técnico (PDF)](./docs/NexSync_Documento_Tecnico.pdf)
+- [Presentación (PDF)](./docs/NexSync_Presentacion.pdf)
 
 ---
 
