@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f3ef;
+  --foreground: #1f2933;
+  --brand-primary: #12343b;
+  --brand-secondary: #4f6f52;
+  --brand-action: #2f6690;
+  --brand-bg: #f5f3ef;
+  --brand-surface: #ffffff;
+  --brand-text: #1f2933;
+  --brand-muted: #64748b;
+  --brand-accent: #c9a86a;
+  --brand-light: #e8efea;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-primary: #12343b;
+  --color-brand-secondary: #4f6f52;
+  --color-brand-action: #2f6690;
+  --color-brand-bg: #f5f3ef;
+  --color-brand-surface: #ffffff;
+  --color-brand-text: #1f2933;
+  --color-brand-muted: #64748b;
+  --color-brand-accent: #c9a86a;
+  --color-brand-light: #e8efea;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+.leaflet-container {
+  z-index: 0;
+  font-family: inherit;
+}
+
+.leaflet-pane,
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 1;
+}
+
+.custom-map-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+@keyframes payment-progress-bar {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+.animate-payment-progress {
+  animation: payment-progress-bar 2.8s ease-in-out forwards;
+}
+
+@keyframes card-pulse-subtle {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+.animate-card-pulse {
+  animation: card-pulse-subtle 1.5s ease-in-out infinite;
+}
+
+@media print {
+  header,
+  footer {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+  }
+}
