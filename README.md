@@ -271,7 +271,7 @@ Proyecto para **Hackathon Build With AI 2026** — **GDG Santa Cruz**.
 
 | Integrante |
 |------------|
-| Diego Andrade |
+| Diego Andrade Canedo |
 | Sebastian Aspiazu |
 | Salim Suarez |
 | Mathias Frias |
