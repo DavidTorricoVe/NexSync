@@ -8,6 +8,8 @@ NexSync conecta empresas que tienen recursos ociosos (bodegas, maquinaria, trans
 
 **Repositorio:** [https://github.com/DavidTorricoVe/NexSync](https://github.com/DavidTorricoVe/NexSync)
 
+**Video de la Demo** [https://youtu.be/jcdZpripvUc)
+
 ---
 
 ## Problema
